@@ -18,6 +18,7 @@ h1{
 }
 .acteur-principale figcaption{
   color: white;
+  text-align: center;
 }
 .acteur-principale{
   display: flex;
@@ -31,7 +32,7 @@ h2{
 .part3{
   width: 150px;
   height: 150px;
-  margin-right: 100px;
+  margin-right: 200px;
 }
 .méchtext{
   color: white;
@@ -39,6 +40,7 @@ h2{
 }
 .opposant figcaption{
   color: white;
+  text-align: center;
 }
 .opposant{
   display: flex;
@@ -75,16 +77,120 @@ h5{
   font-family: 'Rajghani';
   margin: 20px 0
 }
-body {
+body{
+  position: absolute;
   width: 1050px;
   margin: 0 auto;
   background-color: black;
   padding:  100px;
-  border: 9px solid black;
+  border: 5px solid black;
   border-style: ridge;
 }
+.groupe{
+  position: relative;
+  margin: -90px;
+}
 .groupe img{
-  margin:auto;
-  display: block;
+  position: absolute;
+  left: 200px;
+}
+.flèche img{
+  margin-left: 500px;
+}
+.chemin{
   text-align: center;
+}
+.chemin button{
+  background: linear-gradient(135deg, #EDDEBF60, #19587D60);
+  padding: 10px 20px; 
+  min-width: 100px;
+  font-size: 16px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.image {
+  order: 0; 
+}
+.maison {
+  order: 2; 
+}
+.arrow{
+  display: flex;
+}
+.arrow-begin{
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 5px;
+  justify-content: space-between;
+  background: linear-gradient(135deg, #EDDEBF60, #19587D60);
+  border-radius: 0 10px 10px 0;
+}
+.arrow-begin img{
+  margin-right: 10px;
+}
+.arrow-begin figcaption{
+  color: white;
+  font-size: 12px;
+}
+.conte h6{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.conte-2 label{
+  color: white;
+}
+.conte{
+  display: block;
+  padding: 20px;
+  justify-content: stretch;
+  background: linear-gradient(135deg, #EDDEBF60, #19587D60);
+  margin: -100px;
+}
+.gout-T{
+  display: flex;
+  margin-left: 500px;
+  text-align: center;
+}
+.gout-T button{
+  background: linear-gradient(135deg, #EDDEBF60, #19587D60);
+}
+#commentaire{
+  width: 500px;
+}
+.conf{
+  text-align: center;
+}
+.conf button{
+  background: linear-gradient(135deg, #EDDEBF, #890008);
+  padding: 10px 20px; 
+  min-width: 300px;
+  font-size: 30px;
+  color: white;
+}
+.conc-u p{
+  font-size: 15px;
+}
+.conc-s{
+  display: flex;
+  margin-left: 900px;
+  text-align: center;
+}
+.azure-1 figcaption{
+  color: white;
+  font-size: 10px;
+}
+.azure-1{
+  display: flex; 
+  align-items: center;
+  text-align: center;
+}
+.azure-2 img{
+  margin-right: 0px;
+  margin-left: 100px;
+  align-items: center;
 }
